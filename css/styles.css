@@ -62,8 +62,8 @@ h1{
 
 button{
     padding: 10px 20px;
-    background-color: red;
-    color: white;
+    background-color: gold;
+    color: black;
     font-size: 1.5rem;
     border-radius: 5px;
     border: none;
@@ -107,8 +107,8 @@ li a{
     color:black;
 }
 .nav-item a.active{
-    background: red;
-    color: aliceblue;
+    background: gold;
+    color: black;
 }
 .nav-item a:hover{
     color:black;
@@ -255,6 +255,9 @@ li a{
     #hero-img-section{
         padding: 20px 30px;
     }
+    #hero-img-text h1{
+        font-size: 30px;
+    }
     #hero-img-box{
         display: grid;
         grid-template-columns: 100%;
@@ -280,15 +283,32 @@ li a{
         justify-items: center;  
         margin-top: 70px; 
     }
+    #page-links ul{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        justify-items: center;
+    }
 }
 
 /* for Tabs */
 
 @media only screen and (max-width: 992px) {
+    #hero-img-text h1{
+        font-size: 30px;
+    }
     #main-content-section{
         padding: 50px 50px;
         display: grid;
         grid-template-columns: 100%;
+    }
+
+    #blog-list, #match-list{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center; 
+        justify-items: center;  
+        margin-top: 70px; 
     }
 
 }
