@@ -115,6 +115,9 @@ li a{
     background: gold;
     font-weight: bold;
 }
+.hidden{
+    display:hidden;
+}
 
 #blog-list-box{
     display: grid;
